@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M2NETCore_HelloMVC.Web", "M2NETCore_HelloMVC.Web\M2NETCore_HelloMVC.Web.csproj", "{B3D619B8-5EB4-48F2-9B15-F24AC7E563AC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3D619B8-5EB4-48F2-9B15-F24AC7E563AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3D619B8-5EB4-48F2-9B15-F24AC7E563AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3D619B8-5EB4-48F2-9B15-F24AC7E563AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3D619B8-5EB4-48F2-9B15-F24AC7E563AC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {05887353-4B01-492B-AB95-D72DEADCA718}
+	EndGlobalSection
+EndGlobal

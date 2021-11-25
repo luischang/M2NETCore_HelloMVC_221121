@@ -18,6 +18,7 @@ namespace M2NETCore_HelloMVC.Web.Areas.Marketing.Controllers
         }
 
 
+
         private List<Product> GetProducts()
         {
             var pathFileJson = "Areas\\Marketing\\Data\\products.json";

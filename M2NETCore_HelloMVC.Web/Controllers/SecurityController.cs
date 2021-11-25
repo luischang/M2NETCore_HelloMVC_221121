@@ -29,7 +29,7 @@ namespace M2NETCore_HelloMVC.Web.Controllers
 
             if (email == "luis@qbo.com" && password == "123456")
             {
-                return RedirectToAction("Index","Home");
+                return RedirectToAction("Index","Home", new { area="Marketing"});
 
             }
 

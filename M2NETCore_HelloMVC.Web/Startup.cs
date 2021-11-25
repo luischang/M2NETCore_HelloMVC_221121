@@ -45,12 +45,14 @@ namespace M2NETCore_HelloMVC.Web
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
+                      name: "areas",
+                      pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
+
+                endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Security}/{action=Login}/{id?}");
 
-                endpoints.MapControllerRoute(
-                      name: "areas",
-                      pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
+
             });
         }
     }

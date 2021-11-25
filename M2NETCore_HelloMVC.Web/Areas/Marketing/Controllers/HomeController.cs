@@ -17,6 +17,27 @@ namespace M2NETCore_HelloMVC.Web.Areas.Marketing.Controllers
             return View();
         }
 
+        public IActionResult ProductsViewModel()
+        {
+            var products = GetProducts();
+            return View(products);
+        }
+
+        public IActionResult ProductsViewBag()
+        {
+            var products = GetProducts();
+            ViewBag.ProductList = products;
+            return View();
+        }
+
+        public IActionResult ProductsViewData()
+        {
+            var products = GetProducts();
+            ViewData["ProductList"] = products;
+            ViewData["MyName"] = "Luis";
+            return View();
+        }
+
 
 
         private List<Product> GetProducts()

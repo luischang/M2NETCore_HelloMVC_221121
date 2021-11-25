@@ -4,4 +4,19 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\Finanzas\Controllers\" />
+    <Folder Include="Areas\Finanzas\Data\" />
+    <Folder Include="Areas\Finanzas\Models\" />
+    <Folder Include="Areas\Finanzas\Views\" />
+    <Folder Include="Areas\RecursosHumanos\Controllers\" />
+    <Folder Include="Areas\RecursosHumanos\Data\" />
+    <Folder Include="Areas\RecursosHumanos\Models\" />
+    <Folder Include="Areas\RecursosHumanos\Views\" />
+  </ItemGroup>
+
 </Project>
